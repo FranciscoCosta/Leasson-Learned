@@ -27,6 +27,7 @@ body {
 
 #titulo {
     font-size: 50px;
+    color: #efb22f;
 }
 
 #minha_foto {
@@ -43,6 +44,28 @@ p {
     line-height: 30px;
 }
 
-.container-articles{
+.container-articles {
     display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.lado-esquerdo, .lado-direito {
+    flex :1 ;
+    text-align: start   ;
+}
+
+
+
+
+.logo-git {
+    width: 30px;
+}
+
+table {
+	width: 100%;
+}
+
+#rodape {
+    text-align: center;
 }
