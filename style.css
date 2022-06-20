@@ -19,7 +19,6 @@ section {
 #cabecalho {
     position: absolute;
     top: 0; 
-    border: 10px salmon solid;
     margin: 0 auto;
     width: 100%;
     text-align: center;
