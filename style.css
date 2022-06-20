@@ -1,8 +1,7 @@
 /* Estilização global */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
-*
 
-{
+*{
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
 }
@@ -32,4 +31,14 @@ body {
 #minha_foto {
     width:300px;
     border-radius: 12px;
+}
+p {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.container-articles{
+    display: flex;
 }
