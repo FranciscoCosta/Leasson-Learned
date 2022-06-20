@@ -12,14 +12,12 @@
 body{
     background-color: rgb(253, 251, 251);
 }
-section {
-    margin: 100px 0;
-}
 
 #cabecalho {
     position: absolute;
     top: 0; 
-    margin: 0 auto;
+    margin-left: auto;;
+    margin-right: auto;
     width: 100%;
     text-align: center;
 }
@@ -38,8 +36,4 @@ section {
 #minha_foto{
     width:300px;
     border-radius: 12px;
-}
-
-ul {
-    list-style: none;
 }
