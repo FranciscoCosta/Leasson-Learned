@@ -38,4 +38,9 @@ section {
 }
 #minha_foto{
     width:300px;
+    border-radius: 12px;
+}
+
+ul {
+    list-style: none;
 }
