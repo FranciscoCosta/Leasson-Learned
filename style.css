@@ -14,8 +14,6 @@ body {
 #cabecalho {
     position: fixed;
     top: 0; 
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .container {
@@ -27,8 +25,18 @@ body {
 
 #titulo {
     font-size: 50px;
-    color: #efb22f;
-    letter-spacing: 10px;
+    color: #036b52;
+    letter-spacing: 6px;
+    cursor: pointer;
+    text-shadow: 2px 2px #036b52;
+}
+
+#titulo:hover {
+    font-size: 80px;
+    color: #2fc18c;
+    letter-spacing: 12px;
+    text-shadow: 5px 5px #036b52;
+    transition: 1s ease;
 }
 
 #minha_foto {
@@ -36,37 +44,52 @@ body {
     border-radius: 12px;
     margin: 10px 10px 10px 10px;
     padding: 5px 5px 5px 5px;
-    border: 1px saddlebrown solid;
+    border: 1px #036b52 solid;
 }
-p {
+
+#minha_foto:hover {
+    width: 400px;
+    transition: 2.5s ease;
+    transform: rotate(360deg);
+    cursor: pointer;
+}
+
+
+.articles p {
     font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 30px;
-    color: blue;
+    color: #036b52;
     letter-spacing: 1.5px;
+}
+
+.coding {
+    margin: 0 auto;
 }
 
 .Listas {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
 }
-
+.lista-titulo {
+    font-size: 35px;
+    font-weight: 700;
+}
 .container-articles {
     display: flex;
-    width: 90%;
+    width: 60%;
     margin: 0 auto;
+
 }
 
 .lado-esquerdo, .lado-direito {
     flex :1;
     text-align: left;
-    margin: 20px 20px;
+    margin: 20px;
 }
-
-.logo-git {
-    width: 30px;
-}
-
 table {
 	width: 30%;
     margin: 0 auto;
@@ -74,5 +97,24 @@ table {
 }
 
 #rodape {
+    font-size: 14px;
+    font-weight: 400;
     text-align: center;
+    color: grey;
+}
+.social-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.social-container img{
+    max-width: 50px;
+}
+
+.social-container img:hover{
+    max-width: 80px;
+    transition: 1.5s ease;
+    transform: rotate(360deg);
+    cursor: pointer;
 }
