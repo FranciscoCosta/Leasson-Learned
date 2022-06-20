@@ -28,6 +28,7 @@ body {
 #titulo {
     font-size: 50px;
     color: #efb22f;
+    letter-spacing: 10px;
 }
 
 #minha_foto {
@@ -42,6 +43,8 @@ p {
     font-family: 'Times New Roman', Times, serif;
     font-weight: 500;
     line-height: 30px;
+    color: blue;
+    letter-spacing: 1.5px;
 }
 
 .container-articles {
@@ -55,15 +58,14 @@ p {
     text-align: start   ;
 }
 
-
-
-
 .logo-git {
     width: 30px;
 }
 
 table {
-	width: 100%;
+	width: 90%;
+    margin: 0 auto;
+
 }
 
 #rodape {
